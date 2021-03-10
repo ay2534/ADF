@@ -1,0 +1,17 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1AY",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "delta_MP_PERSON"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

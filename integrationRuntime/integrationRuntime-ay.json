@@ -1,0 +1,7 @@
+{
+	"name": "integrationRuntime-ay",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "test IR AY"
+	}
+}

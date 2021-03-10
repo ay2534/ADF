@@ -1,0 +1,427 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1DEV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "DELTA_GID",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "PERSON_ID",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "MEMBER_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "PATIENT_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "FIRST_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "MIDDLE_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "LAST_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "BIRTH_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "GENDER",
+				"type": "varchar"
+			},
+			{
+				"name": "SSN",
+				"type": "varchar"
+			},
+			{
+				"name": "MARITAL_STATUS",
+				"type": "varchar"
+			},
+			{
+				"name": "MARRIAGE_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "DIVORCE_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "DEATH_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "LANGUAGE",
+				"type": "varchar"
+			},
+			{
+				"name": "DATE_OF_DEATH_INSERTED",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "PERSON_TYPE",
+				"type": "varchar"
+			},
+			{
+				"name": "D1_PRIMARY_DEPENDENT_ID",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "D1_PRIMARY_PERSON_ID",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "D1_DEPENDENT_SEQ_NO",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 0
+			},
+			{
+				"name": "D1_QMCSO_FLAG",
+				"type": "char"
+			},
+			{
+				"name": "D1_QMCSO_FROM_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D1_QMCSO_UNTIL_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D1_RELATION",
+				"type": "varchar"
+			},
+			{
+				"name": "D1_RELATION_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "D1_DISABILITY",
+				"type": "char"
+			},
+			{
+				"name": "D1_MARRIAGE_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D1_DIVORCE_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D1_DIVORCE_NOTIFICATION_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D2_PRIMARY_DEPENDENT_ID",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "D2_PRIMARY_PERSON_ID",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "D2_DEPENDENT_SEQ_NO",
+				"type": "decimal",
+				"precision": 5,
+				"scale": 0
+			},
+			{
+				"name": "D2_QMCSO_FLAG",
+				"type": "char"
+			},
+			{
+				"name": "D2_QMCSO_FROM_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D2_QMCSO_UNTIL_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D2_RELATION",
+				"type": "varchar"
+			},
+			{
+				"name": "D2_RELATION_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "D2_DISABILITY",
+				"type": "char"
+			},
+			{
+				"name": "D2_MARRIAGE_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D2_DIVORCE_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "D2_DIVORCE_NOTIFICATION_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "RETIREMENT_STATUS",
+				"type": "varchar"
+			},
+			{
+				"name": "CURRENT_EMPLOYMENT_STATUS",
+				"type": "varchar"
+			},
+			{
+				"name": "JOB_COUNT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SECURITY_TYPE",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_1",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_2",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_3",
+				"type": "varchar"
+			},
+			{
+				"name": "CITY",
+				"type": "varchar"
+			},
+			{
+				"name": "STATE",
+				"type": "varchar"
+			},
+			{
+				"name": "ZIP",
+				"type": "varchar"
+			},
+			{
+				"name": "COUNTY_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "COUNTRY",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_FLAG",
+				"type": "char"
+			},
+			{
+				"name": "ADDRESS_SOURCE",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_LONGITUDE",
+				"type": "decimal",
+				"precision": 13,
+				"scale": 8
+			},
+			{
+				"name": "ADDRESS_LATITUDE",
+				"type": "decimal",
+				"precision": 13,
+				"scale": 8
+			},
+			{
+				"name": "POSTAL_CODE",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "ADDRESS_START_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "ADDRESS_STOP_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "CUSTODIAL_PERSON_ID",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ALT_ADDRESS_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_ADDRESS_1",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_ADDRESS_2",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_ADDRESS_3",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_CITY",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_STATE",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_ZIP",
+				"type": "varchar"
+			},
+			{
+				"name": "ALT_COUNTRY",
+				"type": "varchar"
+			},
+			{
+				"name": "EMAIL_CONTACT_INFO_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "EMAIL",
+				"type": "varchar"
+			},
+			{
+				"name": "HOME_PHONE_CONTACT_INFO_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "HOME_PHONE",
+				"type": "varchar"
+			},
+			{
+				"name": "MOBILE_PHONE_CONTACT_INFO_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "MOBILE_PHONE",
+				"type": "varchar"
+			},
+			{
+				"name": "BUSINESS_PHONE_CONTACT_INFO_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "BUSINESS_PHONE",
+				"type": "varchar"
+			},
+			{
+				"name": "BUSINESS_PHONE_EXT",
+				"type": "varchar"
+			},
+			{
+				"name": "VESTED_STATUS",
+				"type": "varchar"
+			},
+			{
+				"name": "E_DELIVERY_OPTION",
+				"type": "bit"
+			},
+			{
+				"name": "FUTURE_HEALTH",
+				"type": "date"
+			},
+			{
+				"name": "FUTURE_LEGAL",
+				"type": "date"
+			},
+			{
+				"name": "FUTURE_TRAINING",
+				"type": "date"
+			},
+			{
+				"name": "FUTURE_401K",
+				"type": "date"
+			},
+			{
+				"name": "FUTURE_PENSION",
+				"type": "date"
+			},
+			{
+				"name": "FUTURE_PROFIT_SHARING",
+				"type": "date"
+			},
+			{
+				"name": "ORIGINAL_INITIATION_DATE",
+				"type": "date"
+			},
+			{
+				"name": "INSERTED_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "UPDATED_DATE",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "DELTA_ACTION",
+				"type": "varchar"
+			},
+			{
+				"name": "DELTA_SENT",
+				"type": "datetime2",
+				"scale": 7
+			}
+		],
+		"typeProperties": {
+			"schema": "delta",
+			"table": "MP_PERSON"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
